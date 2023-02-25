@@ -1,3 +1,2 @@
-main.aux
-main.log
-main.synctex.gz
+build/
+*.tex.bak

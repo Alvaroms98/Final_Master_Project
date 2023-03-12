@@ -2,6 +2,9 @@
 \input{src/preamble.tex}
 
 \begin{document}
+
+\frontmatter
+%%%%%%%% frontmatter %%%%%%%%%%
 % Title Page
 \input{src/title_page.tex}
 
@@ -11,7 +14,11 @@
 
 % Table of contents
 \tableofcontents
+%%%%%%%% frontmatter %%%%%%%%%%
 
+
+%%%%%%%% mainmatter %%%%%%%%%%
+\mainmatter
 % Introduction
 \input{src/introduction/introduction.tex}
 
@@ -26,10 +33,12 @@
 
 % Conclusion
 \input{src/conclusion/conclusion.tex}
+%%%%%%%% mainmatter %%%%%%%%%%
 
+%%%%%%%% backmatter %%%%%%%%%%
+\backmatter
 % References
 
 % Appendices
-
-
+%%%%%%%% backmatter %%%%%%%%%%
 \end{document}
